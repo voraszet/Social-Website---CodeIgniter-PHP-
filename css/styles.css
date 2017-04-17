@@ -1,0 +1,283 @@
+
+    #myContainer{
+        width:60%;
+        height:60%;
+        min-width:60%;
+        min-height:60%;
+        padding: 20px;
+        margin: 0 auto;
+    }
+
+
+    /*
+
+         NAVIGATION
+
+    */
+    nav ul{
+        list-style-type:none;
+        text-align: center;
+    }
+    nav li {
+        display:inline-block;
+    }
+    nav li a{
+        text-decoration: none;
+        font-size:24px;
+        padding:50px;
+        padding-bottom:20px;
+        padding-top:30px;
+        color:#FFF;
+        background-color: black;
+        border-radius: 10px 20px 10px 20px;
+        margin-left:-3px;
+        cursor:pointer;
+        font-family: 'Dosis', sans-serif;
+
+
+    }
+    nav li a:hover{
+        transition:0.2s;
+        padding-bottom:25px;
+        color: #fff;
+    }
+
+
+
+
+
+
+
+    /*
+
+        POSTS
+
+    */
+    #posts{
+        width:70%;
+        max-width:90%;
+        height:100%;
+        background-color: rgba(164, 164, 164, 0.1);
+        padding:10px;
+        margin:0 auto;
+        margin-top:30px;
+        border: solid 1px #AAA;
+        border-radius:30px 0px 100px 0px;
+    }
+    #user{
+        font-size:16px;
+        margin:15px;
+        width:30%;
+        max-width:50%;
+        text-align:center;
+        display:inline-block;
+        font-family: 'Dosis', sans-serif;
+        margin: 0 auto;
+    }
+
+    #single-post{
+        margin-top:15px;
+        margin-left:120px;
+        padding:5px;
+        font-size:30px;
+        font-family:arial;
+        font-family: 'Dosis', sans-serif;
+    }
+
+    .upvote span{
+        float:right;
+        padding:5px;
+        clear:both;
+        margin-left:0px;
+        padding-left:15px;
+        margin-right:55px;
+        font-size:40px;
+    }
+    .downvote span{
+        float:right;
+        padding:5px;
+        color:#333333;
+        font-size:40px;
+    }
+
+    #upvote a:hover{
+      transition:0.3s;
+      color: #0a65af;
+    }
+
+    #downvote a:hover{
+      color:black;
+      transition:0.3s;
+    }
+
+    #commentNumber{
+        clear:both;
+        float:right;
+        margin:10px;
+        margin-right:70px;
+        padding:10px;
+        display:inline-block;
+        font-family: 'Dosis', sans-serif;
+    }
+    #posts a{
+        text-decoration:none;
+        font-family:arial;
+        font-size:17px;
+        color: rgb(10, 116, 255);
+    }
+
+    #votes{
+        padding:10px;
+        padding-left:40px;
+        margin:10px;
+        display:inline-block;
+        font-family: 'Dosis', sans-serif;
+    }
+
+
+
+
+
+
+
+
+    /*
+
+        ADD POSTS FORM
+
+    */
+    #addpost{
+        width:100%;
+        visibility: hidden;
+        display:none;
+        font-family: 'Dosis', sans-serif;
+        font-size: 20px;
+        text-align:center;
+        margin: 30px;
+    }
+    form#addpostform input{
+        width:50%;
+        margin: 0 auto;
+        padding: 15px;
+    }
+
+
+
+
+
+    /*
+
+        PAGINATION
+
+    */
+    #pagination a{
+        padding: 15px;
+        border:solid 3px black;
+        margin: 5px;
+        font-family:Arial;
+        font-size:22px;
+        font-weight:strong;
+        color: #FFF;
+        text-decoration:none;
+        background-color:black;
+    }
+
+    #pagination a:hover{
+        color: black;
+        background-color: #fff;
+        transition: 0.5s;
+    }
+
+    #pagination{
+        margin: 0 auto;
+        padding:30px;
+        text-align:center;
+    }
+
+    #p{
+      visibility: visible;
+      display: block;
+    }
+
+
+
+
+
+
+
+    /*
+
+        SINGLE POST PAGE
+
+    */
+    #container{
+      width:65%;
+      border-radius: 10px 10px 10px 10px;
+      border: solid 1px #AAA;
+      margin:0 auto;
+      margin-top:50px;
+
+    }
+    #commentPage{
+      padding:50px;
+    }
+
+    #postName{
+      font-size:30px;
+      font-family: 'Dosis', sans-serif;
+    }
+    #userName{
+      font-size:18px;
+      color:#3579e8;
+      font-family: 'Dosis', sans-serif;
+    }
+    #postDescription{
+      font-family: 'Dosis', sans-serif;
+      font-size:20px;
+    }
+    #date{
+      font-family: 'Dosis', sans-serif;
+      color:#AAA;
+    }
+    #commentVotes{
+      font-family: 'Dosis', sans-serif;
+      font-size:15px;
+    }
+    #descriptionTitle{
+      font-family: 'Dosis', sans-serif;
+      font-size:25px;
+    }
+
+    /* MAIN COMMENTS CONTAINER */
+    #comments{
+      border-top:solid 1px #AAA;
+      padding:30px;
+    }
+    #commentTitle{
+      font-family: 'Dosis', sans-serif;
+      font-size:25px;
+    }
+
+    form#addComments input{
+      padding:30px;
+      padding-top:10px;
+      padding-bottom:10px;
+      border-radius:5px 5px 5px 5px;
+      border: solid 1px #AAA;
+      margin:3px;
+      font-family: 'Dosis', sans-serif;
+      font-size:20px;
+    }
+    div#form{
+      margin:5px;
+    }
+
+    form#abc input{
+      border-radius: 10px 10px 10px 10px;
+      padding:10px;
+      margin:2px;
+      padding-top:5px;
+      padding-bottom:5px;
+      border: solid 1px #AAA;
+
+    }
